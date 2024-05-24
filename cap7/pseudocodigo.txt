@@ -1,0 +1,15 @@
+Para desenvolver o jogo da forca em Python, você pode seguir os seguintes passos:
+
+1 - Definir a lista de possíveis palavras
+2 - Escolher uma palavra aleatória da lista
+3 - Criar uma lista vazia par armazenar as letras adivinhadas
+4 - Definir o numero máximo de tentativas permitidas
+5 - Enquanto o número de tentativas não atingir o limite máximo:
+    a. Mostrar a palavra com uma série de underscores, com as letras a seres adivinhadas preenchidas nos espaços corretos
+    b. Pedir ao jogador que adivinhe uma letras.
+    c. Verificar se a letra sdivinhada está na palavra
+    d. Se a letra adivinhada está na palavra, adicionar a letra à lista de letras adivinhadas e atualizar a exibição da palavra
+    e. Se a letra adivinhada não está na palavra, reduzir o numero de tentativas restantes e exibir a mensagem "Letra incorreta. Tentativas restantes: [numero de tentativas restantes]
+    f. Verificar se todas as letras da palavra fora adivinhadas
+    g. Se todas as letras foram adicinhadas, exivir a mensagem  "Você venceu"
+    h. Se o numero de tentativas restantes chegar a zero, exibir a mensagem "Você perdeu. A palavra era [palavra escolhida] e encerrar o jogo.
