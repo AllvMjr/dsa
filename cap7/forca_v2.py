@@ -15,7 +15,7 @@ def limpa_tela():
         _= system('clear')
         
 # Função para desenho da forca
-def display_hangman(chences):
+def display_hangman(chances):
     
     # Lista de Estagios da forca
     stages = [ # Estagio 6 (final)
@@ -87,8 +87,9 @@ def display_hangman(chences):
                 |
                 |
                 -
-              """        
+              """                      
     ]
+    return stages[chances]
 
         
 # Função
@@ -119,7 +120,8 @@ def game():
     
     # Loop enquanto o número de chances for maior que 0
     while chances > 0:
-        print(display_hangman)
+        
+        print(display_hangman(chances))
         print("Palavra: ", tabuleiro)
         print('\n')
         
@@ -143,3 +145,15 @@ def game():
                 #conficional
                 if lista_letras_palavras[indice] == tentativa:
                     tabuleiro[indice] = tentativa
+                  
+            # Se todos os espaços forem preenchidos, o jogo acabou
+            if "_" not in tabuleiro:
+                print('\nVocê venceu!, a palavra era: {}'.format(palavra))
+                break
+        else:
+          print("Ops. Essa letra não está na palavra!")
+          chances -= 1
+#bloco main
+if __name__ == "__main__":
+  game()
+  print("\nParabéns. Você está aprendendo programação em python com a DSA!")
