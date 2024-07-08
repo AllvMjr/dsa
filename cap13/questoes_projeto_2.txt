@@ -1,0 +1,29 @@
+Vamos analizar os dados e então responder essas 10 perguntas de negócios
+
+1º Qua a cidade com maior venda de Produtos da Cataegoria 'Office Supplies' ?
+
+2º Qual o Total de Vendas Por data de Pedido ?
+   Demonstre o resultado em um gráfico de barras
+
+3º Qual o Total de Vendas por Estado ?
+   Demonstre o resultado em um gráfico de barras
+
+4º Quais são as 10 cidades com maiot Total de Vendas ?
+   Demonstre o resultado em um gráfico de barras
+
+5º Qual segmento teve o maior Total de Vendas ?
+   Demonstre o resultado através de um gráfico de pizza.
+
+6º Qual op ttoal de Vendas por gesgmento e por Ano ?
+
+7º Os gestores da empresa estão considerando conceder diferentes faixas de descontos e gostariam de fazer uma simulação com base na regra abaixo.
+   - Se o Valor_Venda for maior que 1000 recebe 15% de desconto.
+   - SE o Valor_Venda for menor que 1000 recebe 10% de desconto.
+
+8º Considere que a empresa decida conceder o desconto de 15% do Item Antetior. Qual seria a média do Valor de Venda antes e Depois do Desconto ?
+
+9º Qual a média de vendas por segmento, port Ano e por Mês ?
+   Demonstre o resultado através dce um gráfico de linha.
+
+10º Qual o Total de Vendas por Categoria e Subcategoria, considerando somente as to 12 sbcategorias?
+    Demonstra udo através de um unico gráfico.
